@@ -1,0 +1,10 @@
+{* Teste adicional: identificadores repetidos, reais e comentario
+   em mais de uma linha *}
+program teste6a begin
+    base, altura, area = float;
+    base = 3.5;
+    altura = 2;
+    area = base * altura;
+    write("Area: ");
+    write(area)
+end.

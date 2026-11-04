@@ -1,0 +1,94 @@
+SEQUENCIA DE TOKENS
+1:1 <PROGRAM, TS[0]> lexema="program"
+1:10 <ID, TS[15]> lexema="a"
+1:11 <VIRGULA> lexema=","
+1:13 <ID, TS[16]> lexema="aux"
+ERRO LEXICO em 1:17: caractere nao pertence aos tokens da linguagem; trecho=":"
+1:19 <INT, TS[3]> lexema="int"
+1:22 <PONTO_VIRGULA> lexema=";"
+1:25 <ID, TS[17]> lexema="b"
+ERRO LEXICO em 1:27: caractere nao pertence aos tokens da linguagem; trecho=":"
+1:29 <FLOAT, TS[4]> lexema="float"
+1:36 <BEGIN, TS[1]> lexema="begin"
+1:43 <ID, TS[17]> lexema="b"
+1:45 <ATRIB> lexema="="
+1:47 <INTEGER_CONST, "0"> lexema="0"
+1:48 <PONTO_VIRGULA> lexema=";"
+1:51 <READ, TS[13]> lexema="read"
+1:56 <ABRE_PAR> lexema="("
+1:57 <ID, TS[15]> lexema="a"
+1:58 <FECHA_PAR> lexema=")"
+1:59 <PONTO_VIRGULA> lexema=";"
+1:62 <READ, TS[13]> lexema="read"
+1:66 <ABRE_PAR> lexema="("
+1:67 <ID, TS[17]> lexema="b"
+1:68 <FECHA_PAR> lexema=")"
+1:69 <PONTO_VIRGULA> lexema=";"
+1:72 <IF, TS[6]> lexema="if"
+1:75 <ABRE_PAR> lexema="("
+1:76 <ID, TS[15]> lexema="a"
+1:77 <MAIOR> lexema=">"
+1:78 <ID, TS[17]> lexema="b"
+1:79 <FECHA_PAR> lexema=")"
+1:81 <THEN, TS[7]> lexema="then"
+1:87 <ID, TS[16]> lexema="aux"
+1:91 <ATRIB> lexema="="
+1:93 <ID, TS[17]> lexema="b"
+1:94 <PONTO_VIRGULA> lexema=";"
+1:97 <ID, TS[17]> lexema="b"
+1:99 <ATRIB> lexema="="
+1:101 <ID, TS[15]> lexema="a"
+1:102 <PONTO_VIRGULA> lexema=";"
+1:105 <ID, TS[15]> lexema="a"
+1:107 <ATRIB> lexema="="
+1:109 <ID, TS[16]> lexema="aux"
+1:114 <END, TS[2]> lexema="end"
+1:117 <PONTO_VIRGULA> lexema=";"
+1:120 <WRITE, TS[14]> lexema="write"
+1:125 <ABRE_PAR> lexema="("
+1:126 <ID, TS[15]> lexema="a"
+1:127 <FECHA_PAR> lexema=")"
+1:128 <PONTO_VIRGULA> lexema=";"
+1:131 <WRITE, TS[14]> lexema="write"
+1:136 <ABRE_PAR> lexema="("
+1:137 <ID, TS[17]> lexema="b"
+1:138 <FECHA_PAR> lexema=")"
+1:139 <PONTO_VIRGULA> lexema=";"
+1:143 <IF, TS[6]> lexema="if"
+1:146 <ABRE_PAR> lexema="("
+1:147 <ID, TS[15]> lexema="a"
+1:148 <MOD> lexema="%"
+1:149 <INTEGER_CONST, "2"> lexema="2"
+1:151 <IGUAL> lexema="=="
+1:154 <INTEGER_CONST, "0"> lexema="0"
+1:155 <FECHA_PAR> lexema=")"
+1:157 <WRITE, TS[14]> lexema="write"
+1:163 <ABRE_PAR> lexema="("
+1:164 <LITERAL, "\"Par);  else write (\""> lexema="\"Par);  else write (\""
+1:185 <ID, TS[18]> lexema="Impar"
+ERRO LEXICO em 1:190: literal sem aspas duplas de fechamento na mesma linha; trecho="\");"
+2:1 <EOF> lexema=""
+
+TABELA DE SIMBOLOS
+Indice | Token | Lexema
+0 | PROGRAM | program
+1 | BEGIN | begin
+2 | END | end
+3 | INT | int
+4 | FLOAT | float
+5 | CHAR | char
+6 | IF | if
+7 | THEN | then
+8 | ELSE | else
+9 | WHILE | while
+10 | DO | do
+11 | REPEAT | repeat
+12 | UNTIL | until
+13 | READ | read
+14 | WRITE | write
+15 | ID | a
+16 | ID | aux
+17 | ID | b
+18 | ID | Impar
+
+Analise lexica concluida com 3 erro(s)

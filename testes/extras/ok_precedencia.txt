@@ -1,0 +1,9 @@
+program
+ int: a, b;
+begin
+ a = -3 + 4 * 2;
+ b = (a + 5) * 3 - 1;
+ if !(b == 2) || (a >= 0) then
+  out(b)
+ end
+end

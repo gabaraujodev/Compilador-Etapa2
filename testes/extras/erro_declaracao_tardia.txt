@@ -1,0 +1,7 @@
+program
+ int: x;
+begin
+ x = 0;
+ int: y;
+ y = 1
+end

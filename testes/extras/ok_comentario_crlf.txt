@@ -1,0 +1,6 @@
+PROGRAM
+INT: A;
+BEGIN
+% Esta linha deve ser ignorada
+A = 1
+END

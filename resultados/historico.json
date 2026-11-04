@@ -1,0 +1,294 @@
+{
+  "1": [
+    {
+      "passo": 0,
+      "intervencao": "Codigo original do enunciado",
+      "arquivo": "resultados/teste1_passo00.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 10, coluna 7: esperado '=' na atribuicao; encontrado \"(\" (ABRE_PAR)."
+    },
+    {
+      "passo": 1,
+      "intervencao": "Trocar comando inexistente read pelo comando in",
+      "arquivo": "resultados/teste1_passo01.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 12, coluna 23: esperado ')' para fechar a expressao; encontrado \"5\" (INTEGER_CONST)."
+    },
+    {
+      "passo": 2,
+      "intervencao": "Inserir operador de multiplicacao ausente",
+      "arquivo": "resultados/teste1_passo02.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 12, coluna 27: caractere nao pertence aos tokens da linguagem; trecho \"\\xE2\""
+    },
+    {
+      "passo": 3,
+      "intervencao": "Substituir travessao nao ASCII por sinal de menos",
+      "arquivo": "resultados/teste1_passo03.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 16, coluna 1: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"end\" (END)."
+    },
+    {
+      "passo": 4,
+      "intervencao": "Remover ponto e virgula antes do end externo",
+      "arquivo": "resultados/teste1_passo04.txt",
+      "status": 0,
+      "saida": "SUCESSO: analise lexica e sintatica concluidas sem erros."
+    }
+  ],
+  "2": [
+    {
+      "passo": 0,
+      "intervencao": "Codigo original do enunciado",
+      "arquivo": "resultados/teste2_passo00.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 2, coluna 19: caractere nao pertence aos tokens da linguagem; trecho \"$\""
+    },
+    {
+      "passo": 1,
+      "intervencao": "Remover simbolo $ nao permitido no identificador",
+      "arquivo": "resultados/teste2_passo01.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 2, coluna 20: esperado ';' ao final da declaracao; encontrado \"=\" (ATRIB)."
+    },
+    {
+      "passo": 2,
+      "intervencao": "Retirar inicializacao da declaracao (nao prevista na gramatica)",
+      "arquivo": "resultados/teste2_passo02.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 7, coluna 2: esperado comando (atribuicao, if, while, repeat, in ou out); encontrado \"char\" (CHAR)."
+    },
+    {
+      "passo": 3,
+      "intervencao": "Mover declaracao local para o inicio do repeat",
+      "arquivo": "resultados/teste2_passo03.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 9, coluna 9: float exige digito depois do ponto; trecho \"3.\""
+    },
+    {
+      "passo": 4,
+      "intervencao": "Exigir digitos apos ponto em numero real",
+      "arquivo": "resultados/teste2_passo04.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 11, coluna 2: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"end\" (END)."
+    },
+    {
+      "passo": 5,
+      "intervencao": "Remover ponto e virgula imediatamente antes do end do if",
+      "arquivo": "resultados/teste2_passo05.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 12, coluna 7: literal sem aspas duplas de fechamento na mesma linha; trecho \"\\\"Deseja continuar?);\""
+    },
+    {
+      "passo": 6,
+      "intervencao": "Fechar aspas duplas do literal de texto",
+      "arquivo": "resultados/teste2_passo06.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 14, coluna 1: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"until\" (UNTIL)."
+    },
+    {
+      "passo": 7,
+      "intervencao": "Remover ponto e virgula antes do until",
+      "arquivo": "resultados/teste2_passo07.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 14, coluna 28: esperado ')' para fechar a expressao; encontrado \"==\" (IGUAL)."
+    },
+    {
+      "passo": 8,
+      "intervencao": "Agrupar cada relacao com parenteses e uniformizar o identificador",
+      "arquivo": "resultados/teste2_passo08.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 16, coluna 1: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"end\" (END)."
+    },
+    {
+      "passo": 9,
+      "intervencao": "Remover ponto e virgula apos a condicao do repeat",
+      "arquivo": "resultados/teste2_passo09.txt",
+      "status": 0,
+      "saida": "SUCESSO: analise lexica e sintatica concluidas sem erros."
+    }
+  ],
+  "3": [
+    {
+      "passo": 0,
+      "intervencao": "Codigo original do enunciado",
+      "arquivo": "resultados/teste3_passo00.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 9, coluna 6: esperado ':' apos o tipo; encontrado \"aux\" (ID)."
+    },
+    {
+      "passo": 1,
+      "intervencao": "Incluir dois-pontos apos o tipo da declaracao interna",
+      "arquivo": "resultados/teste3_passo01.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 14, coluna 7: esperado ')' apos out; encontrado \";\" (PONTO_VIRGULA)."
+    },
+    {
+      "passo": 2,
+      "intervencao": "Fechar parenteses de out(a)",
+      "arquivo": "resultados/teste3_passo02.txt",
+      "status": 0,
+      "saida": "SUCESSO: analise lexica e sintatica concluidas sem erros."
+    }
+  ],
+  "4": [
+    {
+      "passo": 0,
+      "intervencao": "Codigo original do enunciado",
+      "arquivo": "resultados/teste4_passo00.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 2, coluna 2: esperado 'begin' apos as declaracoes; encontrado \"a\" (ID)."
+    },
+    {
+      "passo": 1,
+      "intervencao": "Usar declaracao no formato tipo: identificadores;",
+      "arquivo": "resultados/teste4_passo01.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 12, coluna 13: esperado ')' para fechar a expressao; encontrado \"and\" (ID)."
+    },
+    {
+      "passo": 2,
+      "intervencao": "Trocar palavra and por operador &&",
+      "arquivo": "resultados/teste4_passo02.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 12, coluna 24: esperado 'then' depois da condicao do if; encontrado \"end\" (END)."
+    },
+    {
+      "passo": 3,
+      "intervencao": "Substituir end incorreto por then no cabecalho do if",
+      "arquivo": "resultados/teste4_passo03.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 19, coluna 2: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"else\" (ELSE)."
+    },
+    {
+      "passo": 4,
+      "intervencao": "Retirar ponto e virgula antes do else do if interno",
+      "arquivo": "resultados/teste4_passo04.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 23, coluna 21: literal sem aspas duplas de fechamento na mesma linha; trecho \"\\\");\""
+    },
+    {
+      "passo": 5,
+      "intervencao": "Remover aspas duplas sobrando em out",
+      "arquivo": "resultados/teste4_passo05.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 27, coluna 2: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"until\" (UNTIL)."
+    },
+    {
+      "passo": 6,
+      "intervencao": "Remover ponto e virgula antes do until",
+      "arquivo": "resultados/teste4_passo06.txt",
+      "status": 0,
+      "saida": "SUCESSO: analise lexica e sintatica concluidas sem erros."
+    }
+  ],
+  "5": [
+    {
+      "passo": 0,
+      "intervencao": "Codigo original do enunciado",
+      "arquivo": "resultados/teste5_passo00.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 1, coluna 1: esperado 'program' no inicio do arquivo; encontrado \"programa\" (ID)."
+    },
+    {
+      "passo": 1,
+      "intervencao": "Corrigir palavra-chave inicial para program",
+      "arquivo": "resultados/teste5_passo01.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 2, coluna 1: esperado 'begin' apos as declaracoes; encontrado \"declare\" (ID)."
+    },
+    {
+      "passo": 2,
+      "intervencao": "Excluir palavra declare, ausente da linguagem",
+      "arquivo": "resultados/teste5_passo02.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 2, coluna 2: esperado 'begin' apos as declaracoes; encontrado \"inteiro\" (ID)."
+    },
+    {
+      "passo": 3,
+      "intervencao": "Usar nome de tipo int em vez de inteiro",
+      "arquivo": "resultados/teste5_passo03.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 4, coluna 1: esperado ';' ao final da declaracao; encontrado \"begin\" (BEGIN)."
+    },
+    {
+      "passo": 4,
+      "intervencao": "Adicionar ponto e virgula na declaracao de pontuacaoMinima",
+      "arquivo": "resultados/teste5_passo04.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 12, coluna 2: comentario { sem fechamento }; trecho \"\""
+    },
+    {
+      "passo": 5,
+      "intervencao": "Encerrar comentario multilinha com chave",
+      "arquivo": "resultados/teste5_passo05.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 16, coluna 31: caractere nao pertence aos tokens da linguagem; trecho \"\\xC3\""
+    },
+    {
+      "passo": 6,
+      "intervencao": "Remover acento em identificador nao ASCII",
+      "arquivo": "resultados/teste5_passo06.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 16, coluna 53: esperado ')' para fechar a expressao; encontrado \"do\" (DO)."
+    },
+    {
+      "passo": 7,
+      "intervencao": "Fechar parenteses externo na condicao do while",
+      "arquivo": "resultados/teste5_passo07.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 19, coluna 13: caractere nao pertence aos tokens da linguagem; trecho \"\\xC3\""
+    },
+    {
+      "passo": 8,
+      "intervencao": "Remover segunda ocorrencia de identificador acentuado",
+      "arquivo": "resultados/teste5_passo08.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 24, coluna 2: esperado ';' entre comandos ou encerramento do bloco; encontrado \"out\" (OUT)."
+    },
+    {
+      "passo": 9,
+      "intervencao": "Separar o if e o comando seguinte com ponto e virgula",
+      "arquivo": "resultados/teste5_passo09.txt",
+      "status": 1,
+      "saida": "ERRO LEXICO - linha 26, coluna 6: literal sem aspas duplas de fechamento na mesma linha; trecho \"\\\"Disponibilidade\""
+    },
+    {
+      "passo": 10,
+      "intervencao": "Remover quebra de linha dentro de literal",
+      "arquivo": "resultados/teste5_passo10.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 28, coluna 2: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"end\" (END)."
+    },
+    {
+      "passo": 11,
+      "intervencao": "Remover ponto e virgula antes do end do while",
+      "arquivo": "resultados/teste5_passo11.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 29, coluna 2: esperado ';' entre comandos ou encerramento do bloco; encontrado \"out\" (OUT)."
+    },
+    {
+      "passo": 12,
+      "intervencao": "Separar o while e o out final por ponto e virgula",
+      "arquivo": "resultados/teste5_passo12.txt",
+      "status": 1,
+      "saida": "ERRO SINTATICO - linha 30, coluna 1: esperado comando depois de ';' (remova o ';' final do bloco); encontrado \"end\" (END)."
+    },
+    {
+      "passo": 13,
+      "intervencao": "Retirar ponto e virgula final antes de end",
+      "arquivo": "resultados/teste5_passo13.txt",
+      "status": 0,
+      "saida": "SUCESSO: analise lexica e sintatica concluidas sem erros."
+    }
+  ],
+  "6": [
+    {
+      "passo": 0,
+      "intervencao": "Teste adicional desenvolvido",
+      "arquivo": "resultados/teste6_passo00.txt",
+      "status": 0,
+      "saida": "SUCESSO: analise lexica e sintatica concluidas sem erros."
+    }
+  ]
+}

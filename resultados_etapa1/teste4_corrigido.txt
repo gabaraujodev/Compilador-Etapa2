@@ -1,0 +1,131 @@
+SEQUENCIA DE TOKENS
+1:1 <ID, TS[15]> lexema="programa"
+1:10 <ID, TS[16]> lexema="teste4"
+1:48 <ID, TS[17]> lexema="pontuacao"
+1:57 <VIRGULA> lexema=","
+1:59 <ID, TS[18]> lexema="pontuacaoMaxima"
+1:74 <VIRGULA> lexema=","
+1:76 <ID, TS[19]> lexema="disponibilidade"
+1:92 <ATRIB> lexema="="
+1:94 <ID, TS[20]> lexema="inteiro"
+1:101 <PONTO_VIRGULA> lexema=";"
+1:104 <ID, TS[21]> lexema="pontuacaoMinima"
+1:120 <ATRIB> lexema="="
+1:122 <CHAR, TS[5]> lexema="char"
+1:126 <PONTO_VIRGULA> lexema=";"
+1:128 <BEGIN, TS[1]> lexema="begin"
+1:135 <ID, TS[21]> lexema="pontuacaoMinima"
+1:151 <ATRIB> lexema="="
+1:153 <INTEGER_CONST, "50"> lexema="50"
+1:155 <PONTO_VIRGULA> lexema=";"
+1:158 <ID, TS[18]> lexema="pontuacaoMaxima"
+1:174 <ATRIB> lexema="="
+1:176 <INTEGER_CONST, "100"> lexema="100"
+1:179 <PONTO_VIRGULA> lexema=";"
+1:182 <WRITE, TS[14]> lexema="write"
+1:187 <ABRE_PAR> lexema="("
+1:188 <LITERAL, "\"Pontuacao do candidato: \""> lexema="\"Pontuacao do candidato: \""
+1:214 <FECHA_PAR> lexema=")"
+1:215 <PONTO_VIRGULA> lexema=";"
+1:218 <READ, TS[13]> lexema="read"
+1:222 <ABRE_PAR> lexema="("
+1:223 <ID, TS[17]> lexema="pontuacao"
+1:232 <FECHA_PAR> lexema=")"
+1:233 <PONTO_VIRGULA> lexema=";"
+1:236 <WRITE, TS[14]> lexema="write"
+1:241 <ABRE_PAR> lexema="("
+1:242 <LITERAL, "\"Disponibilidade do candidato: \""> lexema="\"Disponibilidade do candidato: \""
+1:274 <FECHA_PAR> lexema=")"
+1:275 <PONTO_VIRGULA> lexema=";"
+1:278 <READ, TS[13]> lexema="read"
+1:282 <ABRE_PAR> lexema="("
+1:283 <ID, TS[19]> lexema="disponibilidade"
+1:298 <FECHA_PAR> lexema=")"
+1:299 <PONTO_VIRGULA> lexema=";"
+1:303 <WHILE, TS[9]> lexema="while"
+1:309 <ABRE_PAR> lexema="("
+1:310 <ID, TS[17]> lexema="pontuacao"
+1:319 <MAIOR> lexema=">"
+1:320 <INTEGER_CONST, "0"> lexema="0"
+1:322 <E> lexema="&&"
+1:325 <ABRE_PAR> lexema="("
+1:326 <ID, TS[17]> lexema="pontuacao"
+1:335 <MENOR_IGUAL> lexema="<="
+1:337 <ID, TS[18]> lexema="pontuacaoMaxima"
+1:352 <FECHA_PAR> lexema=")"
+1:354 <DO, TS[10]> lexema="do"
+1:358 <IF, TS[6]> lexema="if"
+1:361 <ABRE_PAR> lexema="("
+1:362 <ABRE_PAR> lexema="("
+1:363 <ID, TS[17]> lexema="pontuacao"
+1:373 <MAIOR> lexema=">"
+1:375 <ID, TS[21]> lexema="pontuacaoMinima"
+1:390 <FECHA_PAR> lexema=")"
+1:392 <E> lexema="&&"
+1:395 <ABRE_PAR> lexema="("
+1:396 <ID, TS[19]> lexema="disponibilidade"
+1:411 <IGUAL> lexema="=="
+1:413 <INTEGER_CONST, "1"> lexema="1"
+1:414 <FECHA_PAR> lexema=")"
+1:415 <FECHA_PAR> lexema=")"
+1:417 <THEN, TS[7]> lexema="then"
+1:423 <WRITE, TS[14]> lexema="write"
+1:428 <ABRE_PAR> lexema="("
+1:429 <LITERAL, "\"Candidato aprovado. \""> lexema="\"Candidato aprovado. \""
+1:451 <FECHA_PAR> lexema=")"
+1:454 <ELSE, TS[8]> lexema="else"
+1:460 <WRITE, TS[14]> lexema="write"
+1:465 <ABRE_PAR> lexema="("
+1:466 <LITERAL, "\"Candidato reprovado. \""> lexema="\"Candidato reprovado. \""
+1:489 <FECHA_PAR> lexema=")"
+1:492 <END, TS[2]> lexema="end"
+1:497 <WRITE, TS[14]> lexema="write"
+1:502 <ABRE_PAR> lexema="("
+1:503 <LITERAL, "\"Pontuacao do candidato: \""> lexema="\"Pontuacao do candidato: \""
+1:529 <FECHA_PAR> lexema=")"
+1:530 <PONTO_VIRGULA> lexema=";"
+1:533 <READ, TS[13]> lexema="read"
+1:537 <ABRE_PAR> lexema="("
+1:538 <ID, TS[17]> lexema="pontuacao"
+1:547 <FECHA_PAR> lexema=")"
+1:548 <PONTO_VIRGULA> lexema=";"
+1:551 <WRITE, TS[14]> lexema="write"
+1:556 <ABRE_PAR> lexema="("
+1:557 <LITERAL, "\"Disponibilidade do  candidato: \""> lexema="\"Disponibilidade do  candidato: \""
+1:590 <FECHA_PAR> lexema=")"
+1:591 <PONTO_VIRGULA> lexema=";"
+1:594 <READ, TS[13]> lexema="read"
+1:598 <ABRE_PAR> lexema="("
+1:599 <ID, TS[19]> lexema="disponibilidade"
+1:614 <FECHA_PAR> lexema=")"
+1:615 <PONTO_VIRGULA> lexema=";"
+1:618 <END, TS[2]> lexema="end"
+1:622 <END, TS[2]> lexema="end"
+2:1 <EOF> lexema=""
+
+TABELA DE SIMBOLOS
+Indice | Token | Lexema
+0 | PROGRAM | program
+1 | BEGIN | begin
+2 | END | end
+3 | INT | int
+4 | FLOAT | float
+5 | CHAR | char
+6 | IF | if
+7 | THEN | then
+8 | ELSE | else
+9 | WHILE | while
+10 | DO | do
+11 | REPEAT | repeat
+12 | UNTIL | until
+13 | READ | read
+14 | WRITE | write
+15 | ID | programa
+16 | ID | teste4
+17 | ID | pontuacao
+18 | ID | pontuacaoMaxima
+19 | ID | disponibilidade
+20 | ID | inteiro
+21 | ID | pontuacaoMinima
+
+Analise lexica concluida sem erros (sintaxe e semantica nao verificadas)

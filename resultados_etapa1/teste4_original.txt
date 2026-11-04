@@ -1,0 +1,27 @@
+SEQUENCIA DE TOKENS
+1:1 <ID, TS[15]> lexema="programa"
+1:10 <ID, TS[16]> lexema="teste4"
+ERRO LEXICO em 1:17: comentario sem fechamento *}; trecho=""
+2:1 <EOF> lexema=""
+
+TABELA DE SIMBOLOS
+Indice | Token | Lexema
+0 | PROGRAM | program
+1 | BEGIN | begin
+2 | END | end
+3 | INT | int
+4 | FLOAT | float
+5 | CHAR | char
+6 | IF | if
+7 | THEN | then
+8 | ELSE | else
+9 | WHILE | while
+10 | DO | do
+11 | REPEAT | repeat
+12 | UNTIL | until
+13 | READ | read
+14 | WRITE | write
+15 | ID | programa
+16 | ID | teste4
+
+Analise lexica concluida com 1 erro(s)

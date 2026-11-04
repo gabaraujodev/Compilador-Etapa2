@@ -1,0 +1,5 @@
+program
+char: letra;
+begin
+letra = 'ABC'
+end

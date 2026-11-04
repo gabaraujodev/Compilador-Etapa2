@@ -1,0 +1,22 @@
+# Gramática EBNF reconhecida pelo analisador sintático (Etapa 2).
+# Tokens sem aspas (identifier, literal, integer_const etc.) vêm do Lexer.
+programa     = "program", { declaracao }, "begin", comandos, "end", EOF ;
+declaracao   = tipo, ":", identifier, { ",", identifier }, ";" ;
+tipo         = "int" | "float" | "char" ;
+comandos     = comando, { ";", comando } ;
+comando      = atribuicao | condicional | repeticao | enquanto | leitura | escrita ;
+atribuicao   = identifier, "=", expressao_simples ;
+condicional  = "if", expressao, "then", { declaracao }, comandos,
+               [ "else", { declaracao }, comandos ], "end" ;
+enquanto     = "while", expressao, "do", { declaracao }, comandos, "end" ;
+repeticao    = "repeat", { declaracao }, comandos, "until", expressao ;
+leitura      = "in", "(", identifier, ")" ;
+escrita      = "out", "(", ( expressao_simples | literal ), ")" ;
+expressao    = expressao_simples, [ operador_relacional, expressao_simples ] ;
+expressao_simples = termo, { operador_aditivo, termo } ;
+termo        = fator_a, { operador_multiplicativo, fator_a } ;
+fator_a      = fator | "!", fator | "-", fator ;
+fator        = identifier | integer_const | float_const | char_const | "(", expressao, ")" ;
+operador_relacional = "==" | ">" | ">=" | "<" | "<=" | "!=" ;
+operador_aditivo = "+" | "-" | "||" ;
+operador_multiplicativo = "*" | "/" | "&&" ;

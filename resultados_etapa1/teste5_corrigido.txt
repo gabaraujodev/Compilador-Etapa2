@@ -1,0 +1,146 @@
+SEQUENCIA DE TOKENS
+1:31 <PROGRAM, TS[0]> lexema="program"
+1:39 <ID, TS[15]> lexema="teste5"
+1:47 <ID, TS[16]> lexema="a"
+1:48 <VIRGULA> lexema=","
+1:50 <ID, TS[17]> lexema="b"
+1:51 <VIRGULA> lexema=","
+1:53 <ID, TS[18]> lexema="c"
+1:54 <VIRGULA> lexema=","
+1:56 <ID, TS[19]> lexema="maior"
+1:63 <ATRIB> lexema="="
+1:65 <INT, TS[3]> lexema="int"
+1:68 <PONTO_VIRGULA> lexema=";"
+1:71 <ID, TS[20]> lexema="opc"
+1:76 <ATRIB> lexema="="
+1:78 <INT, TS[3]> lexema="int"
+1:81 <PONTO_VIRGULA> lexema=";"
+1:83 <BEGIN, TS[1]> lexema="begin"
+1:90 <REPEAT, TS[11]> lexema="repeat"
+1:98 <WRITE, TS[14]> lexema="write"
+1:103 <ABRE_PAR> lexema="("
+1:104 <LITERAL, "\"A: \""> lexema="\"A: \""
+1:109 <FECHA_PAR> lexema=")"
+1:110 <PONTO_VIRGULA> lexema=";"
+1:113 <READ, TS[13]> lexema="read"
+1:117 <ABRE_PAR> lexema="("
+1:118 <ID, TS[16]> lexema="a"
+1:119 <FECHA_PAR> lexema=")"
+1:120 <PONTO_VIRGULA> lexema=";"
+1:123 <WRITE, TS[14]> lexema="write"
+1:128 <ABRE_PAR> lexema="("
+1:129 <LITERAL, "\"B: \""> lexema="\"B: \""
+1:134 <FECHA_PAR> lexema=")"
+1:135 <PONTO_VIRGULA> lexema=";"
+1:138 <READ, TS[13]> lexema="read"
+1:142 <ABRE_PAR> lexema="("
+1:143 <ID, TS[17]> lexema="b"
+1:144 <FECHA_PAR> lexema=")"
+1:145 <PONTO_VIRGULA> lexema=";"
+1:148 <WRITE, TS[14]> lexema="write"
+1:153 <ABRE_PAR> lexema="("
+1:154 <LITERAL, "\"C: \""> lexema="\"C: \""
+1:159 <FECHA_PAR> lexema=")"
+1:160 <PONTO_VIRGULA> lexema=";"
+1:163 <READ, TS[13]> lexema="read"
+1:167 <ABRE_PAR> lexema="("
+1:168 <ID, TS[18]> lexema="c"
+1:169 <FECHA_PAR> lexema=")"
+1:170 <PONTO_VIRGULA> lexema=";"
+1:173 <IF, TS[6]> lexema="if"
+1:176 <ABRE_PAR> lexema="("
+1:178 <ABRE_PAR> lexema="("
+1:179 <ID, TS[16]> lexema="a"
+1:180 <MAIOR> lexema=">"
+1:181 <ID, TS[17]> lexema="b"
+1:182 <FECHA_PAR> lexema=")"
+1:184 <E> lexema="&&"
+1:187 <ABRE_PAR> lexema="("
+1:188 <ID, TS[16]> lexema="a"
+1:189 <MAIOR> lexema=">"
+1:190 <ID, TS[18]> lexema="c"
+1:191 <FECHA_PAR> lexema=")"
+1:193 <FECHA_PAR> lexema=")"
+1:195 <END, TS[2]> lexema="end"
+1:200 <ID, TS[19]> lexema="maior"
+1:206 <ATRIB> lexema="="
+1:208 <ID, TS[16]> lexema="a"
+1:212 <ELSE, TS[8]> lexema="else"
+1:218 <IF, TS[6]> lexema="if"
+1:221 <ABRE_PAR> lexema="("
+1:222 <ID, TS[17]> lexema="b"
+1:223 <MAIOR> lexema=">"
+1:224 <ID, TS[18]> lexema="c"
+1:225 <FECHA_PAR> lexema=")"
+1:227 <THEN, TS[7]> lexema="then"
+1:233 <ID, TS[19]> lexema="maior"
+1:239 <ATRIB> lexema="="
+1:241 <ID, TS[17]> lexema="b"
+1:242 <PONTO_VIRGULA> lexema=";"
+1:246 <ELSE, TS[8]> lexema="else"
+1:252 <ID, TS[19]> lexema="maior"
+1:258 <ATRIB> lexema="="
+1:260 <ID, TS[18]> lexema="c"
+1:263 <END, TS[2]> lexema="end"
+1:268 <END, TS[2]> lexema="end"
+1:271 <PONTO_VIRGULA> lexema=";"
+1:274 <WRITE, TS[14]> lexema="write"
+1:279 <ABRE_PAR> lexema="("
+1:280 <LITERAL, "\"Maior valor: \""> lexema="\"Maior valor: \""
+1:295 <FECHA_PAR> lexema=")"
+1:296 <PONTO_VIRGULA> lexema=";"
+1:299 <WRITE, TS[14]> lexema="write"
+1:305 <ABRE_PAR> lexema="("
+1:306 <ID, TS[19]> lexema="maior"
+1:311 <FECHA_PAR> lexema=")"
+1:312 <PONTO_VIRGULA> lexema=";"
+1:315 <WRITE, TS[14]> lexema="write"
+1:321 <ABRE_PAR> lexema="("
+1:322 <LITERAL, "\" Continuar?(S/N) \""> lexema="\" Continuar?(S/N) \""
+1:341 <FECHA_PAR> lexema=")"
+1:342 <PONTO_VIRGULA> lexema=";"
+1:345 <READ, TS[13]> lexema="read"
+1:349 <ABRE_PAR> lexema="("
+1:350 <ID, TS[21]> lexema="outro"
+1:355 <FECHA_PAR> lexema=")"
+1:356 <PONTO_VIRGULA> lexema=";"
+1:359 <UNTIL, TS[12]> lexema="until"
+1:365 <ABRE_PAR> lexema="("
+1:366 <ID, TS[20]> lexema="opc"
+1:370 <IGUAL> lexema="=="
+1:373 <CHAR_CONST, "'N'"> lexema="'N'"
+1:377 <OU> lexema="||"
+1:380 <ID, TS[20]> lexema="opc"
+1:384 <IGUAL> lexema="=="
+1:387 <CHAR_CONST, "'n'"> lexema="'n'"
+1:390 <FECHA_PAR> lexema=")"
+1:392 <END, TS[2]> lexema="end"
+1:395 <PONTO> lexema="."
+2:1 <EOF> lexema=""
+
+TABELA DE SIMBOLOS
+Indice | Token | Lexema
+0 | PROGRAM | program
+1 | BEGIN | begin
+2 | END | end
+3 | INT | int
+4 | FLOAT | float
+5 | CHAR | char
+6 | IF | if
+7 | THEN | then
+8 | ELSE | else
+9 | WHILE | while
+10 | DO | do
+11 | REPEAT | repeat
+12 | UNTIL | until
+13 | READ | read
+14 | WRITE | write
+15 | ID | teste5
+16 | ID | a
+17 | ID | b
+18 | ID | c
+19 | ID | maior
+20 | ID | opc
+21 | ID | outro
+
+Analise lexica concluida sem erros (sintaxe e semantica nao verificadas)

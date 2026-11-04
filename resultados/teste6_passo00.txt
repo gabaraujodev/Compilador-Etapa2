@@ -1,0 +1,24 @@
+program
+ int: numero, soma, i;
+ float: fator;
+ char: resposta;
+begin
+ numero = 4;
+ soma = 0;
+ fator = 2.5;
+ i = 0;
+ while i < numero do
+   soma = soma + i;
+   i = i + 1
+ end;
+ if (soma >= 0) && (fator != 0.0) then
+   out("Soma nao negativa");
+   out(soma)
+ else
+   out("Resultado invalido")
+ end;
+ repeat
+   out("Digite a resposta:");
+   in(resposta)
+ until (resposta == 'N') || (resposta == 'n')
+end

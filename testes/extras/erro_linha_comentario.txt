@@ -1,0 +1,7 @@
+program
+ int: x;
+begin
+ { comentario
+  nao fechado
+ x = 5
+end

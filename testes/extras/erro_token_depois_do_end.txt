@@ -1,0 +1,6 @@
+program
+int: a;
+begin
+ a = 1
+end
+out(a)

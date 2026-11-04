@@ -1,0 +1,62 @@
+SEQUENCIA DE TOKENS
+3:1 <PROGRAM, TS[0]> lexema="program"
+3:9 <ID, TS[15]> lexema="teste6a"
+3:17 <BEGIN, TS[1]> lexema="begin"
+4:5 <ID, TS[16]> lexema="base"
+4:9 <VIRGULA> lexema=","
+4:11 <ID, TS[17]> lexema="altura"
+4:17 <VIRGULA> lexema=","
+4:19 <ID, TS[18]> lexema="area"
+4:24 <ATRIB> lexema="="
+4:26 <FLOAT, TS[4]> lexema="float"
+4:31 <PONTO_VIRGULA> lexema=";"
+5:5 <ID, TS[16]> lexema="base"
+5:10 <ATRIB> lexema="="
+5:12 <FLOAT_CONST, "3.5"> lexema="3.5"
+5:15 <PONTO_VIRGULA> lexema=";"
+6:5 <ID, TS[17]> lexema="altura"
+6:12 <ATRIB> lexema="="
+6:14 <INTEGER_CONST, "2"> lexema="2"
+6:15 <PONTO_VIRGULA> lexema=";"
+7:5 <ID, TS[18]> lexema="area"
+7:10 <ATRIB> lexema="="
+7:12 <ID, TS[16]> lexema="base"
+7:17 <MULT> lexema="*"
+7:19 <ID, TS[17]> lexema="altura"
+7:25 <PONTO_VIRGULA> lexema=";"
+8:5 <WRITE, TS[14]> lexema="write"
+8:10 <ABRE_PAR> lexema="("
+8:11 <LITERAL, "\"Area: \""> lexema="\"Area: \""
+8:19 <FECHA_PAR> lexema=")"
+8:20 <PONTO_VIRGULA> lexema=";"
+9:5 <WRITE, TS[14]> lexema="write"
+9:10 <ABRE_PAR> lexema="("
+9:11 <ID, TS[18]> lexema="area"
+9:15 <FECHA_PAR> lexema=")"
+10:1 <END, TS[2]> lexema="end"
+10:4 <PONTO> lexema="."
+11:1 <EOF> lexema=""
+
+TABELA DE SIMBOLOS
+Indice | Token | Lexema
+0 | PROGRAM | program
+1 | BEGIN | begin
+2 | END | end
+3 | INT | int
+4 | FLOAT | float
+5 | CHAR | char
+6 | IF | if
+7 | THEN | then
+8 | ELSE | else
+9 | WHILE | while
+10 | DO | do
+11 | REPEAT | repeat
+12 | UNTIL | until
+13 | READ | read
+14 | WRITE | write
+15 | ID | teste6a
+16 | ID | base
+17 | ID | altura
+18 | ID | area
+
+Analise lexica concluida sem erros (sintaxe e semantica nao verificadas)

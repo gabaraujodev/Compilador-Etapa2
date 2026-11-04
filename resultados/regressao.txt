@@ -1,0 +1,27 @@
+python3 scripts/testar.py ./compilador
+OK    testes/corrigidos/teste1.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/corrigidos/teste2.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/corrigidos/teste3.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/corrigidos/teste4.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/corrigidos/teste5.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/corrigidos/teste6.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/extras/ok_comentario_crlf.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/extras/ok_maiusculas_comentarios.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/extras/ok_precedencia.txt - SUCESSO: analise lexica e sintatica concluidas sem erros.
+OK    testes/originais/teste1.txt - ERRO SINTATICO - linha 10, coluna 7: esperado '=' na atribuicao; encontrado "(" (ABRE_PAR).
+OK    testes/originais/teste2.txt - ERRO LEXICO - linha 2, coluna 19: caractere nao pertence aos tokens da linguagem; trecho "$"
+OK    testes/originais/teste3.txt - ERRO SINTATICO - linha 9, coluna 6: esperado ':' apos o tipo; encontrado "aux" (ID).
+OK    testes/originais/teste4.txt - ERRO SINTATICO - linha 2, coluna 2: esperado 'begin' apos as declaracoes; encontrado "a" (ID).
+OK    testes/originais/teste5.txt - ERRO SINTATICO - linha 1, coluna 1: esperado 'program' no inicio do arquivo; encontrado "programa" (ID).
+OK    testes/extras/erro_char_sem_fechar.txt - ERRO LEXICO - linha 4, coluna 9: char exige exatamente um caractere ASCII entre apostrofos; trecho "'ABC'"
+OK    testes/extras/erro_declaracao_tardia.txt - ERRO SINTATICO - linha 5, coluna 2: esperado comando (atribuicao, if, while, repeat, in ou out); encontrado "int" (INT).
+OK    testes/extras/erro_falta_end.txt - ERRO SINTATICO - linha 5, coluna 1: esperado ';' entre comandos ou encerramento do bloco; encontrado fim de arquivo.
+OK    testes/extras/erro_linha_comentario.txt - ERRO LEXICO - linha 4, coluna 2: comentario { sem fechamento }; trecho ""
+OK    testes/extras/erro_lista_vazia.txt - ERRO SINTATICO - linha 3, coluna 1: esperado comando (atribuicao, if, while, repeat, in ou out); encontrado "end" (END).
+OK    testes/extras/erro_operador.txt - ERRO LEXICO - linha 4, coluna 8: & isolado: use &&; trecho "&"
+OK    testes/extras/erro_parenteses.txt - ERRO SINTATICO - linha 5, coluna 1: esperado ')' para fechar a expressao; encontrado "end" (END).
+OK    testes/extras/erro_read_legado.txt - ERRO SINTATICO - linha 4, coluna 5: esperado '=' na atribuicao; encontrado "(" (ABRE_PAR).
+OK    testes/extras/erro_sem_ponto_virgula.txt - ERRO SINTATICO - linha 5, coluna 2: esperado ';' entre comandos ou encerramento do bloco; encontrado "out" (OUT).
+OK    testes/extras/erro_token_depois_do_end.txt - ERRO SINTATICO - linha 6, coluna 1: esperado fim de arquivo apos 'end'; encontrado "out" (OUT).
+
+24/24 verificacoes corretas.
