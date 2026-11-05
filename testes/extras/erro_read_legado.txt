@@ -1,5 +1,0 @@
-program
-int: a;
-begin
-read(a)
-end
